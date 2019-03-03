@@ -1,0 +1,63 @@
+body {
+     font-family: 'Montserrat', sans-serif !important;
+}
+
+header h1 {
+     border-left: 2px solid #00f28f;
+     font-size: 3rem;
+     font-weight: 800;
+     padding-left: 1.4rem;
+}
+
+button.btn {
+     background: transparent;
+     border: none;
+     cursor: pointer;
+
+     color: #00f28f;
+     font-size: 2rem;
+     padding: 1.4rem 1.6rem;
+
+     transition: all 0.3s ease;
+}
+
+button.btn:hover {
+     background: #00f28f;
+     color: #fff;
+}
+
+.main {
+     margin-top: 2rem;
+}
+
+form input {
+     background: #f0f0f0;
+
+     border: none;
+     border-left: 2px solid #fff;
+     font-size: 2.3rem;
+     padding: 1.6rem;
+     width: 100%;
+
+     transition: background 0.8s, border-left 0.8s;
+}
+
+form input:focus {
+     background: #fff;
+     border-left-style: 2px solid #000;
+     box-shadow: none;
+     outline: none;
+}
+
+.comments {
+     margin-top: 1.2rem;
+     list-style: none;
+     padding-left: 0;
+}
+
+.comments li {
+     margin-bottom: 2rem;
+     padding-left: 1.3rem;
+     border-left: 2px solid #000;
+     font-size: 2rem;
+}
